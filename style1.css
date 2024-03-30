@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 40px auto;
+    gap: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align:left;
+    color: rgb(104, 104, 104);
+}
+.account{
+    font-size: 1.7rem;
+    color: rgb(112, 165, 239);
+}
+.user{
+    display: flex;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+.input{
+    height: 2.5rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+.input:focus {
+    outline: 1px dotted rgb(204, 198, 199);
+    border: 1px solid transparent;
+}
+.line{ 
+    display:flex;
+    flex-wrap: nowrap;
+}
+.square{
+    width: 14px;
+    height: 14px;
+    margin-right:1rem;
+    border: 2px solid rgb(218, 213, 213);
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240); 
+}
+.forgot{
+    color: rgb(30, 122, 250);
+    text-decoration: none;
+    margin-left: auto;
+}
+.login{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    font-style: unset;
+    color: rgb(255, 255, 255);
+    background-color: rgb(112, 165, 239);
+    outline: 1px solid rgb(112, 165, 239);
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
